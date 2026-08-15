@@ -1,11 +1,11 @@
 <template>
   <div class="inicio">
     <h1>📚 ¡Bienvenido a BookList SPA!</h1>
-    <p>Gestiona tu biblioteca digital de forma interactiva.</p>
+    <p>Gestiona tu biblioteca digital de forma interactiva</p>
     
     <div class="contador-box">
       <h3>Contador de Visitas Interactivo:</h3>
-      <p>Has hecho clic {{ contador }} veces.</p>
+      <p>Has hecho clic {{ contador }} veces</p>
       <button @click="incrementar">Incrementar</button>
     </div>
   </div>
